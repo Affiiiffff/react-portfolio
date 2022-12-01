@@ -1,6 +1,11 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import pwgenerator from "../Images/pwgenerator.png";
+import ecommerce from "../Images/e-comm.png";
+import noteTaker from "../Images/noteTaker.png";
+import socialNet from "../Images/social-network-api.png";
+import empTracker from "../Images/employeeTracker.png";
+import Horiseon from "../Images/Horiseon.png";
 
 function Projects() {
   const myProjects = [
@@ -14,40 +19,40 @@ function Projects() {
     },
     {
       id: 2,
-      title: "password-generator",
-      image: pwgenerator,
+      title: "e-commerce",
+      image: ecommerce,
       description: "",
       link: "",
       Github: "",
     },
     {
       id: 3,
-      title: "password-generator",
-      image: pwgenerator,
+      title: "note-taker",
+      image: noteTaker,
       description: "",
       link: "",
       Github: "",
     },
     {
       id: 4,
-      title: "password-generator",
-      image: pwgenerator,
+      title: "Social Network API",
+      image: socialNet,
       description: "",
       link: "",
       Github: "",
     },
     {
       id: 5,
-      title: "password-generator",
-      image: pwgenerator,
+      title: "Employee Tracker",
+      image: empTracker,
       description: "",
       link: "",
       Github: "",
     },
     {
       id: 6,
-      title: "password-generator",
-      image: pwgenerator,
+      title: "Horiseon Marketing",
+      image: Horiseon,
       description: "",
       link: "",
       Github: "",
