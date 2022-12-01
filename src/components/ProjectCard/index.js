@@ -2,15 +2,20 @@ import React from "react";
 
 import Card from "react-bootstrap/Card";
 
-function ProjectCard({ title, image, description, link, GitHub }) {
+function ProjectCard({ title, image, description, link, gitHub }) {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card style={{ width: "40%" }}>
       <Card.Img variant="top" src={image} alt={title} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {description}
+          <a href={link} target="_blank">
+            Deployed Link
+          </a>{" "}
+          <a href={gitHub} target="_blank">
+            Github Repo
+          </a>
         </Card.Text>
       </Card.Body>
     </Card>

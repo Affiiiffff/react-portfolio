@@ -15,7 +15,7 @@ function Projects() {
       image: pwgenerator,
       description: "",
       link: "",
-      Github: "",
+      gitHub: "",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ function Projects() {
       image: ecommerce,
       description: "",
       link: "",
-      Github: "",
+      gitHub: "",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ function Projects() {
       image: noteTaker,
       description: "",
       link: "",
-      Github: "",
+      gitHub: "",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ function Projects() {
       image: socialNet,
       description: "",
       link: "",
-      Github: "",
+      gitHub: "",
     },
     {
       id: 5,
@@ -47,26 +47,26 @@ function Projects() {
       image: empTracker,
       description: "",
       link: "",
-      Github: "",
+      gitHub: "",
     },
     {
       id: 6,
       title: "Horiseon Marketing",
       image: Horiseon,
-      description: "",
-      link: "",
-      Github: "",
+      description: "jutdudmhuyrmski",
+      link: "https://www.google.com",
+      gitHub: "https://www.google.com",
     },
   ];
   return (
-    <div>
+    <div className="d-flex flex-wrap justify-content-evenly align-items-center">
       {myProjects.map((project) => (
         <ProjectCard
           title={project.title}
           image={project.image}
           description={project.description}
           link={project.link}
-          GitHub={project.GitHub}
+          gitHub={project.gitHub}
         />
       ))}
     </div>
